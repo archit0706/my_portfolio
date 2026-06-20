@@ -19,8 +19,6 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">Archit</div>
-
         <ul className="navbar-links">
           {navLinks.map((link) => (
             <li key={link.id}>
@@ -33,8 +31,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-
-        <button className="navbar-resume">Resume</button>
       </div>
     </nav>
   );
