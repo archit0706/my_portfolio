@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  gap: 2rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+  min-width: fit-content;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar-link {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #666666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+  font-family: inherit;
+}
+
+.navbar-link:hover {
+  color: #333333;
+}
+
+.navbar-link:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.navbar-resume {
+  background-color: #0066cc;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+  min-width: fit-content;
+}
+
+.navbar-resume:hover {
+  background-color: #0052a3;
+}
+
+.navbar-resume:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .navbar-links {
+    order: 3;
+    width: 100%;
+    gap: 1rem;
+    justify-content: flex-start;
+  }
+
+  .navbar-logo {
+    order: 1;
+  }
+
+  .navbar-resume {
+    order: 2;
+  }
+}
