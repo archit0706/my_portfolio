@@ -77,7 +77,7 @@ export default function Home() {
         {/* Right Side */}
 
         <div className="home-right">
-          <img src="/avatar.gif" alt="Archit Avatar" />
+          <img src="/avatar.png" alt="Developer Avatar" className="avatar"/>
         </div>
 
       </div>
