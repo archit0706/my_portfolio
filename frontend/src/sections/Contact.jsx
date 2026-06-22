@@ -1,5 +1,8 @@
 import "../css/Contact.css";
 
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
 export default function Contact() {
   return (
     <section id="contact" className="contact">
@@ -21,7 +24,8 @@ export default function Contact() {
             href="mailto:architsingh0706@gmail.com"
             className="contact-card email-card"
           >
-            ✉️
+            <MdEmail className="contact-icon" />
+
             <span>architsingh0706@gmail.com</span>
           </a>
 
@@ -31,7 +35,9 @@ export default function Contact() {
             rel="noreferrer"
             className="contact-card"
           >
-            GitHub
+            <FaGithub className="contact-icon" />
+
+            <span>GitHub</span>
           </a>
 
           <a
@@ -40,23 +46,19 @@ export default function Contact() {
             rel="noreferrer"
             className="contact-card"
           >
-            LinkedIn
-          </a>
+            <FaLinkedin className="contact-icon" />
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="contact-card"
-          >
-            Resume
+            <span>LinkedIn</span>
           </a>
 
         </div>
 
         <div className="availability">
+
           <span className="green-dot"></span>
+
           Open to Opportunities
+
         </div>
 
       </div>
