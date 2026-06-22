@@ -1,9 +1,10 @@
 /* ================= PROJECTS ================= */
 
 .projects {
+  padding: 40px 150px 30px;
+
   background: #000;
   color: white;
-  padding: 120px 150px;
 }
 
 .projects-container {
@@ -12,45 +13,52 @@
 }
 
 .projects-heading {
-  font-size: 52px;
+  font-size: 38px;
   font-weight: 700;
-  margin-bottom: 50px;
+
+  margin-bottom: 35px;
 }
 
 /* Grid */
 
 .projects-grid {
   display: grid;
+
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+
+  gap: 35px;
 }
 
 /* Card */
 
 .project-card {
   background: #0d0d0d;
+
   border: 1px solid #222;
-  border-radius: 28px;
+
+  border-radius: 24px;
+
   overflow: hidden;
 
-  min-height: 330px;
+  min-height: 300px;
 
   transition: all 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 
   border-color: #3b4a66;
 
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
 }
 
 /* Image */
 
 .project-image {
   width: 100%;
-  height: 150px;
+
+  height: 140px;
 
   object-fit: cover;
 
@@ -60,11 +68,11 @@
 /* Content */
 
 .project-content {
-  padding: 18px 20px;
+  padding: 18px 22px;
 }
 
 .project-title {
-  font-size: 24px;
+  font-size: 20px;
 
   font-weight: 700;
 
@@ -74,9 +82,9 @@
 .project-description {
   color: #cfcfcf;
 
-  font-size: 15px;
+  font-size: 14px;
 
-  line-height: 1.6;
+  line-height: 1.7;
 
   margin-bottom: 18px;
 
@@ -108,13 +116,13 @@
 
   color: white;
 
-  padding: 7px 12px;
+  padding: 7px 14px;
 
   border-radius: 999px;
 
-  font-size: 12px;
+  font-size: 13px;
 
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .tech-badge:hover {
@@ -140,11 +148,11 @@
 
   text-decoration: none;
 
-  font-size: 13px;
+  font-size: 14px;
 
   font-weight: 600;
 
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .github-btn:hover {
@@ -160,7 +168,7 @@
 @media (max-width: 1024px) {
 
   .projects {
-    padding: 100px 80px;
+    padding: 30px 80px;
   }
 
   .projects-grid {
@@ -174,27 +182,25 @@
 @media (max-width: 768px) {
 
   .projects {
-    padding: 80px 25px;
+    padding: 25px 25px 40px;
   }
 
   .projects-heading {
-    font-size: 38px;
-  }
-
-  .project-image {
-    height: 140px;
+    font-size: 32px;
   }
 
   .project-title {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .project-description {
-    font-size: 14px;
+    font-size: 13px;
   }
 
-  .project-content {
-    padding: 18px;
+  .tech-badge {
+    font-size: 12px;
+
+    padding: 6px 12px;
   }
 
 }

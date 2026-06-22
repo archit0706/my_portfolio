@@ -1,53 +1,44 @@
 .skills {
+  padding: 30px 150px 40px;
 
   background: #000;
-
   color: white;
-
-  padding: 120px 150px;
 }
 
 .skills-container {
-
   max-width: 1300px;
-
   margin: 0 auto;
 }
 
 .skills-heading {
-
-  font-size: 52px;
-
+  font-size: 44px;
   font-weight: 700;
-
-  margin-bottom: 60px;
-}
-
-/* Each section */
-
-.skill-section {
 
   margin-bottom: 45px;
 }
 
-.skill-title {
+/* Each Section */
 
-  font-size: 26px;
+.skill-section {
+  margin-bottom: 38px;
+}
+
+.skill-title {
+  font-size: 20px;
 
   font-weight: 700;
 
-  margin-bottom: 22px;
+  margin-bottom: 18px;
 }
 
-/* Tags */
+/* Skill Tags */
 
 .skill-tags {
-
   display: flex;
 
   flex-wrap: wrap;
 
-  gap: 15px;
+  gap: 14px;
 }
 
 .skill-tag {
@@ -56,15 +47,17 @@
 
   border: 1px solid #262626;
 
-  padding: 14px 22px;
+  padding: 12px 20px;
 
   border-radius: 999px;
 
   color: white;
 
-  font-size: 16px;
+  font-size: 15px;
 
-  transition: 0.3s;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
 }
 
 .skill-tag:hover {
@@ -76,30 +69,60 @@
   background: #161616;
 }
 
+/* Tablet */
+
+@media (max-width: 1024px) {
+
+  .skills {
+
+    padding: 30px 80px 40px;
+  }
+
+  .skills-heading {
+
+    font-size: 40px;
+  }
+
+  .skill-title {
+
+    font-size: 18px;
+  }
+
+}
+
 /* Mobile */
 
-@media(max-width:768px){
+@media (max-width: 768px) {
 
-  .skills{
+  .skills {
 
-    padding:80px 25px;
+    padding: 30px 25px 40px;
   }
 
-  .skills-heading{
+  .skills-heading {
 
-    font-size:40px;
+    font-size: 34px;
+
+    margin-bottom: 35px;
   }
 
-  .skill-title{
+  .skill-section {
 
-    font-size:22px;
+    margin-bottom: 30px;
   }
 
-  .skill-tag{
+  .skill-title {
 
-    font-size:14px;
+    font-size: 18px;
 
-    padding:12px 18px;
+    margin-bottom: 15px;
+  }
+
+  .skill-tag {
+
+    font-size: 14px;
+
+    padding: 10px 18px;
   }
 
 }

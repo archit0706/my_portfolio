@@ -45,8 +45,8 @@ body {
 }
 
 .navbar-link:focus {
-  outline: 2px solid #e5e5e5;
-  outline-offset: 4px;
+  outline: none;
+  box-shadow: none;
 }
 
 /* Responsive design for mobile */

@@ -1,9 +1,10 @@
-/*EDUCATION SECTION*/
+/* ================= EDUCATION SECTION ================= */
 
 .education {
+  padding: 50px 150px 30px;
+
   background: #000;
   color: white;
-  padding: 120px 150px;
 }
 
 .education-container {
@@ -11,48 +12,58 @@
   margin: 0 auto;
 }
 
-.education-heading{
-  font-size:44px;
-  font-weight:700;
-  margin-bottom:60px;
+.education-heading {
+  font-size: 38px;
+  font-weight: 700;
+
+  margin-bottom: 40px;
 }
 
 /* List */
+
 .education-list {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+
+  gap: 18px;
 }
 
-/* Each education row */
+/* Each Education Row */
+
 .education-item {
   display: flex;
+
   align-items: center;
-  gap: 35px;
+
+  gap: 30px;
 }
 
-/* Circle icon */
-.education-icon{
-  width:78px;
-  height:78px;
-  min-width:78px;
+/* Circle Icon */
 
-  border-radius:50%;
+.education-icon {
+  width: 70px;
 
-  background:#111;
+  height: 70px;
 
-  border:3px solid #26324a;
+  min-width: 70px;
 
-  display:flex;
+  border-radius: 50%;
 
-  align-items:center;
+  background: #111;
 
-  justify-content:center;
+  border: 3px solid #26324a;
 
-  font-size:32px;
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 28px;
 }
 
 /* Card */
+
 .education-card {
   flex: 1;
 
@@ -62,7 +73,7 @@
 
   border-radius: 14px;
 
-  padding: 28px 35px;
+  padding: 24px 30px;
 
   display: flex;
 
@@ -74,6 +85,7 @@
 }
 
 .education-card:hover {
+
   transform: translateY(-4px);
 
   border-color: #3b4a66;
@@ -81,13 +93,15 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* Left side */
+/* Left Side */
+
 .education-left {
   flex: 1;
 }
 
 .education-institution {
-  font-size: 24px;
+
+  font-size: 20px;
 
   font-weight: 700;
 
@@ -97,32 +111,39 @@
 }
 
 .education-degree {
-  margin-top: 14px;
 
-  font-size: 18px;
+  margin-top: 10px;
+
+  font-size: 16px;
 
   color: #c9c9c9;
 
   margin-bottom: 0;
 }
 
-/* Right side */
+/* Right Side */
+
 .education-right {
+
   display: flex;
+
   flex-direction: column;
+
   align-items: flex-end;
 }
 
 .education-duration {
+
   color: #9f9f9f;
 
-  font-size: 15px;
+  font-size: 14px;
 
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .education-badge {
-  padding: 8px 14px;
+
+  padding: 7px 14px;
 
   border-radius: 10px;
 
@@ -132,9 +153,9 @@
 
   color: white;
 
-  font-size: 15px;
+  font-size: 14px;
 
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* ================= TABLET ================= */
@@ -142,27 +163,34 @@
 @media (max-width: 1024px) {
 
   .education {
-    padding: 100px 70px;
+
+    padding: 50px 70px 30px;
   }
 
   .education-heading {
-    font-size: 46px;
+
+    font-size: 34px;
   }
 
   .education-icon {
-    width: 75px;
-    height: 75px;
-    min-width: 75px;
 
-    font-size: 30px;
+    width: 64px;
+
+    height: 64px;
+
+    min-width: 64px;
+
+    font-size: 24px;
   }
 
   .education-institution {
-    font-size: 22px;
+
+    font-size: 18px;
   }
 
   .education-degree {
-    font-size: 16px;
+
+    font-size: 15px;
   }
 
 }
@@ -172,16 +200,21 @@
 @media (max-width: 768px) {
 
   .education {
-    padding: 80px 25px;
+
+    padding: 40px 25px 25px;
   }
 
   .education-heading {
-    font-size: 38px;
-    margin-bottom: 45px;
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
   }
 
   .education-item {
+
     flex-direction: column;
+
     align-items: flex-start;
   }
 
@@ -193,7 +226,7 @@
 
     align-items: flex-start;
 
-    gap: 20px;
+    gap: 18px;
   }
 
   .education-right {
@@ -203,21 +236,23 @@
 
   .education-icon {
 
-    width: 65px;
+    width: 56px;
 
-    height: 65px;
+    height: 56px;
 
-    min-width: 65px;
+    min-width: 56px;
 
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .education-institution {
-    font-size: 20px;
+
+    font-size: 18px;
   }
 
   .education-degree {
-    font-size: 15px;
+
+    font-size: 14px;
   }
 
 }
