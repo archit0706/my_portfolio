@@ -14,6 +14,7 @@ export default function Skills() {
       items: [
         "Data Structures & Algorithms",
         "Operating Systems",
+        "Computer Networks",
         "DBMS",
         "OOP"
       ]
